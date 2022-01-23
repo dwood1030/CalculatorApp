@@ -1,0 +1,16 @@
+C:\Users\dalto\Documents\development\codelouisville-projects\personal-projects\calculator\CalculatorApp\bin\Debug\net5.0\CalculatorApp.exe
+C:\Users\dalto\Documents\development\codelouisville-projects\personal-projects\calculator\CalculatorApp\bin\Debug\net5.0\CalculatorApp.deps.json
+C:\Users\dalto\Documents\development\codelouisville-projects\personal-projects\calculator\CalculatorApp\bin\Debug\net5.0\CalculatorApp.runtimeconfig.json
+C:\Users\dalto\Documents\development\codelouisville-projects\personal-projects\calculator\CalculatorApp\bin\Debug\net5.0\CalculatorApp.runtimeconfig.dev.json
+C:\Users\dalto\Documents\development\codelouisville-projects\personal-projects\calculator\CalculatorApp\bin\Debug\net5.0\CalculatorApp.dll
+C:\Users\dalto\Documents\development\codelouisville-projects\personal-projects\calculator\CalculatorApp\bin\Debug\net5.0\ref\CalculatorApp.dll
+C:\Users\dalto\Documents\development\codelouisville-projects\personal-projects\calculator\CalculatorApp\bin\Debug\net5.0\CalculatorApp.pdb
+C:\Users\dalto\Documents\development\codelouisville-projects\personal-projects\calculator\CalculatorApp\obj\Debug\net5.0\CalculatorApp.csproj.AssemblyReference.cache
+C:\Users\dalto\Documents\development\codelouisville-projects\personal-projects\calculator\CalculatorApp\obj\Debug\net5.0\CalculatorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dalto\Documents\development\codelouisville-projects\personal-projects\calculator\CalculatorApp\obj\Debug\net5.0\CalculatorApp.AssemblyInfoInputs.cache
+C:\Users\dalto\Documents\development\codelouisville-projects\personal-projects\calculator\CalculatorApp\obj\Debug\net5.0\CalculatorApp.AssemblyInfo.cs
+C:\Users\dalto\Documents\development\codelouisville-projects\personal-projects\calculator\CalculatorApp\obj\Debug\net5.0\CalculatorApp.csproj.CoreCompileInputs.cache
+C:\Users\dalto\Documents\development\codelouisville-projects\personal-projects\calculator\CalculatorApp\obj\Debug\net5.0\CalculatorApp.dll
+C:\Users\dalto\Documents\development\codelouisville-projects\personal-projects\calculator\CalculatorApp\obj\Debug\net5.0\ref\CalculatorApp.dll
+C:\Users\dalto\Documents\development\codelouisville-projects\personal-projects\calculator\CalculatorApp\obj\Debug\net5.0\CalculatorApp.pdb
+C:\Users\dalto\Documents\development\codelouisville-projects\personal-projects\calculator\CalculatorApp\obj\Debug\net5.0\CalculatorApp.genruntimeconfig.cache
