@@ -16,37 +16,40 @@ namespace CalculatorApp
             decimal numberTwo = Convert.ToDecimal(Console.ReadLine());
 
             Console.WriteLine("What kind of operation would you like to perform?");
-            Console.WriteLine("Please enter 1 for Addition");
-            Console.WriteLine("Please enter 2 for Subtraction");
-            Console.WriteLine("Please enter 3 for Multiplication");
-            Console.WriteLine("Please enter 4 for Division");
+            Console.WriteLine("Please enter + for Addition");
+            Console.WriteLine("Please enter - for Subtraction");
+            Console.WriteLine("Please enter * for Multiplication");
+            Console.WriteLine("Please enter / for Division");
 
-            decimal operation = Convert.ToDecimal(Console.ReadLine());
+            string operation = Console.ReadLine();
 
-            if (operation == 1)
+            if (operation == "+")
             {
                 decimal result = numberOne + numberTwo;
                 Console.WriteLine("Your result is: " + result + "!");
             }
 
-            else if (operation == 2)
+            else if (operation == "-")
             {
                 decimal result = numberOne - numberTwo;
                 Console.WriteLine("Your result is: " + result + "!");
             }
 
-            else if (operation == 3)
+            else if (operation == "*")
             {
                 decimal result = numberOne * numberTwo;
                 Console.WriteLine("Your result is: " + result + "!");
             }
 
-            else if (operation == 4)
+            else if (operation == "/")
             {
                 decimal result = numberOne / numberTwo;
                 Console.WriteLine("Your result is: " + result + "!");
             }
-            
+
+            Console.ReadLine();
+
+
         }
     }
 }
