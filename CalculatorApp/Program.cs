@@ -9,11 +9,11 @@ namespace CalculatorApp
             Console.WriteLine("Welcome to the calculator app!");
             Console.WriteLine("Please enter the first number of your calculation");
 
-            int numberOne = Convert.ToInt32(Console.ReadLine());
+            decimal numberOne = Convert.ToDecimal(Console.ReadLine());
 
             Console.WriteLine("Please enter the second number of your calcucation");
 
-            int numberTwo = Convert.ToInt32(Console.ReadLine());
+            decimal numberTwo = Convert.ToDecimal(Console.ReadLine());
 
             Console.WriteLine("What kind of operation would you like to perform?");
             Console.WriteLine("Please enter 1 for Addition");
@@ -34,7 +34,7 @@ namespace CalculatorApp
                 decimal result = numberOne - numberTwo;
                 Console.WriteLine("Your result is: " + result + "!");
             }
-            
+
             else if (operation == 3)
             {
                 decimal result = numberOne * numberTwo;
@@ -46,11 +46,7 @@ namespace CalculatorApp
                 decimal result = numberOne / numberTwo;
                 Console.WriteLine("Your result is: " + result + "!");
             }
-
-            else
-            {
-                Console.WriteLine("Please enter a valid operation");
-            }
+            
         }
     }
 }
