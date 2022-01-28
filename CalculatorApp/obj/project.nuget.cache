@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TLwTGL2+lEgYCc8vrN6sS3zWZfv+3mFeibf6GrFbB41kObpMzIVAXfLmqXaDIQai0+5/NsQTJH/lYwJoGPcAFA==",
+  "dgSpecHash": "30QhcCh6BU7iSS8zHnqsMthXfoDCMrnUsxj5qnNomXy0uINpLTOYWpY7qfEcfTnfvfvG91HyYG1cKtTxvcH4uA==",
   "success": true,
   "projectFilePath": "C:\\Users\\dalto\\Documents\\development\\codelouisville-projects\\personal-projects\\calculator\\CalculatorApp\\CalculatorApp.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\dalto\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
