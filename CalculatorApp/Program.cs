@@ -11,15 +11,17 @@ namespace CalculatorApp
             float numberTwo = 0;
             bool endProgram = false;
             bool isNumber = false;
+            bool isNum = false;
             
 
             Console.WriteLine("Welcome to the calculator app!");
-            Console.WriteLine("Please enter the first number of your calculation");
+            Console.Write("Please enter the first number of your calculation: ");
 
-            numberOne = float.Parse(Console.ReadLine());
             while (isNumber == false)
             {
-                if (!float.TryParse(numberOne, out numberOne))
+                string inputOne = Console.ReadLine();
+
+                if (!float.TryParse(inputOne, out numberOne))
                 {
                     Console.WriteLine("Error! Please enter a valid number.");
                 }
@@ -30,7 +32,20 @@ namespace CalculatorApp
                 }
             }
 
-            numberTwo = float.Parse(Console.ReadLine());
+            while (isNum == false)
+            {
+                string inputTwo = Console.ReadLine();
+
+                if (!float.TryParse(inputTwo, out numberTwo))
+                {
+                    Console.WriteLine("Error! Please enter a valid number.");
+                }
+                else
+                {
+                    isNum = true;
+                    Console.WriteLine("What kind of operation would you like to perform?");
+                }
+            }
 
             Console.WriteLine("What kind of operation would you like to perform?");
             Console.WriteLine("Enter + for Addition");
