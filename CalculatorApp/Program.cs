@@ -7,81 +7,75 @@ namespace CalculatorApp
         static void Main(string[] args)
         {
             float result = 0;
+            float numberOne = 0;
+            float numberTwo = 0;
+            bool endProgram = false;
+            bool isNumber = false;
+            
 
             Console.WriteLine("Welcome to the calculator app!");
             Console.WriteLine("Please enter the first number of your calculation");
 
-            float numberOne = float.Parse(Console.ReadLine());
+            numberOne = float.Parse(Console.ReadLine());
+            while (isNumber == false)
+            {
+                if (!float.TryParse(numberOne, out numberOne))
+                {
+                    Console.WriteLine("Error! Please enter a valid number.");
+                }
+                else
+                {
+                    isNumber = true;
+                    Console.Write("Please enter the second number for your calculation: ");
+                }
+            }
 
-            Console.WriteLine("Please enter the second number of your calcucation");
-
-            float numberTwo = float.Parse(Console.ReadLine());
+            numberTwo = float.Parse(Console.ReadLine());
 
             Console.WriteLine("What kind of operation would you like to perform?");
-            Console.WriteLine("Please enter + for Addition");
-            Console.WriteLine("Please enter - for Subtraction");
-            Console.WriteLine("Please enter * for Multiplication");
-            Console.WriteLine("Please enter / for Division");
+            Console.WriteLine("Enter + for Addition");
+            Console.WriteLine("Enter - for Subtraction");
+            Console.WriteLine("Enter * for Multiplication");
+            Console.WriteLine("Enter / for Division");
 
-            string operation = Console.ReadLine();
+            
 
-            switch(operation)
+            while (endProgram == false)
             {
-                case "+":
-                    result = numberOne + numberTwo;
-                    break;
+                string operation = Console.ReadLine();
 
-                case "-":
-                    result = numberOne - numberTwo;
-                    break;
+                switch (operation)
+                {
+                    case "+":
+                        result = numberOne + numberTwo;
+                        endProgram = true;
+                        break;
 
-                case "*":
-                    result = numberOne * numberTwo;
-                    break;
+                    case "-":
+                        result = numberOne - numberTwo;
+                        endProgram = true;
+                        break;
 
-                case "/":
-                    result = numberOne / numberTwo;
-                    break;
+                    case "*":
+                        result = numberOne * numberTwo;
+                        endProgram = true;
+                        break;
 
-                default:
-                    Console.WriteLine("User input is invalid. Try again.");
-                    break;
+                    case "/":
+                        result = numberOne / numberTwo;
+                        endProgram = true;
+                        break;
+
+                    default:
+                        Console.WriteLine("User input is invalid. Try again.");
+                        break;
+                }
             }
 
             Console.WriteLine($"Your result is {result}.");
+            Console.WriteLine("Thank you for using our calculator app!");
 
             Console.ReadLine();
-            
-            //    if (operation == "+")
-            //    {
-            //        float result = numberOne + numberTwo;
-            //        Console.WriteLine("Your result is: " + result + "!");
-            //    }
-
-            //    else if (operation == "-")
-            //    {
-            //        float result = numberOne - numberTwo;
-            //        Console.WriteLine("Your result is: " + result + "!");
-            //    }
-
-            //    else if (operation == "*")
-            //    {
-            //        float result = numberOne * numberTwo;
-            //        Console.WriteLine("Your result is: " + result + "!");
-            //    }
-
-            //    else if (operation == "/")
-            //    {
-            //        float result = numberOne / numberTwo;
-            //        Console.WriteLine("Your result is: " + result + "!");
-            //    }
-
-            //    else
-            //    {
-            //        Console.WriteLine("Error -- Please enter a valid operation");
-            //    }
-
-            //Console.ReadLine();
 
 
         }
